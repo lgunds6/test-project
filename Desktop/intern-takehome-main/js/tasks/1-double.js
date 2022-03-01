@@ -8,6 +8,6 @@
 
 export default function doubleInteger(i) {
   i = i * 2;
-  console.log(i);
+  return i;
 }
-const answer = doubleInteger(6);
+doubleInteger(6);
