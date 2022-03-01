@@ -5,6 +5,9 @@
  * @param {Number} i The integer to double.
  * @returns {Number} The input doubled
  */
+
 export default function doubleInteger(i) {
-    
+  i = i * 2;
+  console.log(i);
 }
+const answer = doubleInteger(6);
